@@ -6,11 +6,15 @@ body {background-image: url("Ændret foto 2 redigeret-.jpg");
 }
 
 /* overskrift font størelse*/
-h1 {font-size: 50px; 
+h1 {font-size: 60px; 
 }
 
+
 /* font størelse forside*/
-.forside-tekst {font-size: 75px;
+.forside-tekst {font-size: 40px;
+}
+
+.tekstservice {font-size: 40px;
 }
 
 .serviceknap {position: absolute;
