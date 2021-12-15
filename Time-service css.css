@@ -3,16 +3,22 @@
 
 /* baggrundsbilledet */ 
 body {background-image: url("Ændret foto 2 redigeret-.jpg");
-background-repeat: no-repeat;
 }
 
+/* overskrift font størelse*/
 h1 {font-size: 50px; 
 }
 
-p {
-	font-size: 25px;
+
+.forside-tekst {font-size: 75px;
 }
 
+.serviceknap {position: absolute;
+left: 50px;
+	}
+
+.omtimeservice {position: absolute;
+right: 50px;}
 
 
 
