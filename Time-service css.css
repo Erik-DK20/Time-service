@@ -9,7 +9,7 @@ body {background-image: url("Ændret foto 2 redigeret-.jpg");
 h1 {font-size: 50px; 
 }
 
-
+/* font størelse forside*/
 .forside-tekst {font-size: 75px;
 }
 
@@ -19,6 +19,8 @@ left: 50px;
 
 .omtimeservice {position: absolute;
 right: 50px;}
+
+
 
 
 
