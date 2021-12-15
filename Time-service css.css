@@ -11,11 +11,14 @@ h1 {font-size: 60px;
 
 
 /* font størelse forside*/
-.forside-tekst {font-size: 40px;
+.forside-tekst {font-size: 35px;
+}
+/* font størelse serviceses */ 
+.tekstservice {font-size: 35px;
 }
 
-.tekstservice {font-size: 40px;
-}
+.OTS-tekst {font-size: 35px;
+color: crimson}
 
 .serviceknap {position: absolute;
 left: 50px;
@@ -24,6 +27,16 @@ left: 50px;
 .omtimeservice {position: absolute;
 right: 50px;}
 
+.forsideknapS {height: 150px;
+width: 150px;}
+
+.omtimeservice {width: 150px; 
+	height: 150px;} 
+
+
+.forsideknap01 {width: 150px;
+position: absolute; 
+	right: 50px;} 
 
 
 
