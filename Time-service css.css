@@ -17,23 +17,31 @@ h1 {font-size: 60px;
 .tekstservice {font-size: 35px;
 }
 
+/* Om time service siden font størelse og farve*/
 .OTS-tekst {font-size: 35px;
 color: crimson}
 
+/* kanp der tager dig til serviceses*/ 
 .serviceknap {position: absolute;
 left: 50px;
 	}
 
+/* knap til at tage dig til Om time service*/
 .omtimeservice {position: absolute;
 right: 50px;}
 
+
+/*knap på Om Serviceses til forsiden*/
 .forsideknapS {height: 150px;
 width: 150px;}
 
+
+/* knapperne til Om time service*/
 .omtimeservice {width: 150px; 
 	height: 150px;} 
 
 
+/*knap på Om Om time-service til forsiden*/
 .forsideknap01 {width: 150px;
 position: absolute; 
 	right: 50px;} 
