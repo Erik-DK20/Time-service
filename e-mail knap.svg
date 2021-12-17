@@ -5,13 +5,13 @@
 <style type="text/css">
 	.st0{fill:#EF7D0F;}
 	.st1{fill:none;}
-	.st2{font-family:'MyriadPro-Regular';}
-	.st3{font-size:40px;}
+	.st2{font-family:'ArialNarrow-Bold';}
+	.st3{font-size:38px;}
 </style>
 <g>
 	<rect x="699.5" y="474.5" class="st0" width="451" height="71"/>
-	<path d="M1150,475v70l-450,0v-70L1150,475 M1151,474l-452,0v72l452,0V474L1151,474z"/>
+	<path d="M1150,475v70H700v-70H1150 M1151,474H699v72h452V474L1151,474z"/>
 </g>
 <rect x="713.67" y="448.67" class="st1" width="493.33" height="114.67"/>
-<text transform="matrix(1 0 0 1 713.6665 525.0664)" class="st2 st3">E-mail: dknhm@yahoo.dk</text>
+<text transform="matrix(1 0 0 1 713.67 525.0664)" class="st2 st3">E-mail: dknhm@yahoo.com</text>
 </svg>

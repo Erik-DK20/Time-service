@@ -7,19 +7,42 @@ body {background-image: url("Ændret foto 2 redigeret-.jpg");
 
 /* overskrift font størelse*/
 h1 {font-size: 60px; 
+	font-family: Gotham, "Arial, Helvetica Neue", Helvetica, "sans-serif";
 }
+
 
 
 /* font størelse forside*/
-.forside-tekst {font-size: 35px;
-}
-/* font størelse serviceses */ 
-.tekstservice {font-size: 35px;
+.forside-tekst {font-size: 30px;
+	font-family: Gotham, "Arial, Helvetica Neue", Helvetica, "sans-serif";
 }
 
+
+/* font størelse serviceses */ 
+.tekstservice {font-size: 30px;
+	font-family: Gotham, "Arial, Helvetica Neue", Helvetica, "sans-serif";
+}
+
+
 /* Om time service siden font størelse og farve*/
-.OTS-tekst {font-size: 35px;
-color: crimson}
+.OTS-tekst {font-size: 30px;
+color:rgb(239, 125, 15);
+font-family: Gotham, "Arial, Helvetica Neue", Helvetica, "sans-serif";}
+
+
+/* E-mail siden font størelse og font*/
+.e-mail {font-size: 30px;
+font-family: Arial, Gotham, "Helvetica Neue", Helvetica, "sans-serif";}
+
+
+/* Tlf nr font størelse og font*/
+.Tlf {font-size: 30px;
+font-family: Arial, Gotham, "Helvetica Neue", Helvetica, "sans-serif";}
+
+
+/* Baggrundsfarve til E-mail og Tlf nr*/
+span {background-color: #ef7d0f;} 
+
 
 /* kanp der tager dig til serviceses*/ 
 .serviceknap {position: absolute;
@@ -43,8 +66,36 @@ width: 150px;}
 
 /*knap på Om Om time-service til forsiden*/
 .forsideknap01 {width: 150px;
-position: absolute; 
+	position: absolute;
 	right: 50px;} 
+
+
+/*Ændre font størelsen på forsiden*/
+@media screen and (min-width:600px){
+   div.tekst  {font-size: 30px;}
+}
+
+/*Ændre font størelsen på forsiden*/
+@media screen and (max-width: 600px) {
+	div.tekst  {font-size: 20px;}
+}
+
+
+/*Ændre titel font størelsen */
+@media screen and (min-width:600px){
+   div.titel {font-size: 60px;}
+}
+
+/*Ændre titel font størelsen */
+@media screen and (max-width: 600px) {
+	div.titel {font-size: 30px;}
+}
+
+
+
+
+
+
 
 
 
