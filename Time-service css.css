@@ -15,19 +15,24 @@ h1 {font-size: 60px;
 
 
 /* font størelse forside*/
-.forside-tekst {font-size: 30px;
+.forside-tekst  {font-size: 25px;
 	font-family: Gotham, "Arial, Helvetica Neue", Helvetica, "sans-serif";
 }
 
+
+/* font størelse forside*/
+.OMF  {font-size: 25px;
+	font-family: Gotham, "Arial, Helvetica Neue", Helvetica, "sans-serif";
+}
 
 /* font størelse serviceses */ 
-.tekstservice {font-size: 30px;
+.tekstservice {font-size: 25px;
 	font-family: Gotham, "Arial, Helvetica Neue", Helvetica, "sans-serif";
 }
 
 
-/* Om time service siden font størelse og farve*/
-.OTS-tekst {font-size: 30px;
+/* Om time service siden font størelse og font*/
+.OTS-tekst {font-size: 25px;
 font-family: Gotham, "Arial, Helvetica Neue", Helvetica, "sans-serif";}
 
 
@@ -73,12 +78,12 @@ width: 150px;}
 
 /*Ændre font størelsen på paragrafer*/
 @media screen and (min-width:600px){
-   div.tekst, .Tlf, .e-mail  {font-size: 30px;}
+   div.tekst, .Tlf, .e-mail, .OMF  {font-size: 25px;}
 }
 
 /*Mindsker font størelsen på paragrafer */
 @media screen and (max-width: 600px) {
-	div.tekst, .Tlf, .e-mail  {font-size: 20px;}
+	div.tekst, .Tlf, .e-mail, .OMF  {font-size: 15px;}
 }
 
 
@@ -97,7 +102,7 @@ width: 150px;}
 	
 	.omtimeservice, .forsideknap01 {
 		position: absolute;
-		top: 775px;}
+		top: 675px;}
 }
 
 
